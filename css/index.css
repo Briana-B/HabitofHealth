@@ -1,0 +1,195 @@
+/*HEADER*/
+
+header {
+    background-image: url(/images/Animation.gif);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+}
+
+h1 {
+    font-family: "Poppins", "roboto", "arial";
+    font-size: 80px;
+}
+.inline-block {
+    display: flex;
+    vertical-align: top;
+}
+
+nav {
+    width: 83%;
+    padding: 1%;
+}
+
+
+
+.menu ul {
+    width: 90%;
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+}
+
+
+.menu li {
+    display: inline-block;
+    padding: 20px;
+    font-family: "Poppins", "roboto";
+    color: white; 
+    font-size: 20px;
+}
+
+.navigation h1 {
+ 
+    padding: 0px 0px 150px 100px;
+}
+
+.menu li:hover {
+    color: #C74629;
+}
+
+
+
+/*General Body*/
+h2 {
+    font-family: "Poppins", "Roboto", "Arial";
+    font-size: 40px;
+}
+
+.sectionTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    flex-grow: 0;
+}
+
+.divider {
+    flex-grow: 1;
+    height: 7px;
+    background-color: #C74629;
+}
+/*atHoH*/
+
+.HoHinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "first firstImage"
+        "secondImage second"
+        "third thirdImage"
+        "fourth fourthImage"
+        "fifth fifthImage";
+    
+}
+
+.HoHcontent {
+    display: grid;
+    font-size: 26px;
+    font-family: "Poppins", "Roboto", "Arial";
+    color: white;
+}
+
+.first {
+    display: grid;
+    word-wrap: break-word;
+    width: 60%;
+    grid-column: 1/3;
+    grid-row: 1;
+    padding: 25px;
+    margin-left: 120px;
+}
+
+.firstImage {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1;
+    padding: 25px;
+    margin-left: -120px;
+}
+
+.second {
+    display: grid;
+    word-wrap: break-word;
+    width: 80%;
+    grid-column: 1/3;
+    grid-row: 2;
+    padding: 25px;
+    margin-left: 250px;
+    
+}
+
+.secondImage {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 2;
+    padding: 15px;
+    margin-left: -120px;
+}
+
+.third {
+    display: grid;
+    word-wrap: break-word;
+    width: 70%;
+    grid-column: 1/3;
+    grid-row: 3;
+    padding: 25px;
+    margin-left: 120px;
+}
+
+.thirdImage {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 3;
+    padding: 25px;
+    margin-left: -120px;
+}
+
+.fourth {
+    display: grid;
+    word-wrap: break-word;
+    width: 70%;
+    grid-column: 1/3;
+    grid-row: 4;
+    padding: 25px;
+    margin-left: 250px;
+}
+
+.fourthImage {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 4;
+    padding: 15px;
+    margin-left: -120px;
+}
+
+.fifth {
+    display: grid;
+    word-wrap: break-word;
+    width: 60%;
+    grid-column: 1/3;
+    grid-row: 5;
+    padding: 25px;
+    margin-left: 120px;
+}
+
+.fifthImage {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 5;
+    padding: 25px;
+    margin-left: -120px;
+}
+
+
+
+/*CALENDAR*/
+
+
+
+.calendarImg img {
+    width: 100%;
+    max-width: 1194px;
+}
