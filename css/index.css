@@ -2,8 +2,8 @@
 
 header {
     background-image: url(/images/Animation.gif), url(/images/Hero_Animation.png);
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100vw auto, 100vw auto;
 }
 
 h1 {
