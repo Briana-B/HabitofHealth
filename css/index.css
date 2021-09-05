@@ -33,7 +33,7 @@ nav {
 .menu li {
     display: inline-block;
     padding: 20px;
-    font-family: "Poppins", "roboto";
+    font-family: "Poppins", "Roboto", "Arial";
     color: white; 
     font-size: 20px;
 }
@@ -218,6 +218,7 @@ h2 {
     font-weight: 400;
     line-height: 60px;
     margin-left: 64px;
+    max-width: 535px;
 }
 
 .featuredVid p {
@@ -239,7 +240,10 @@ button{
     border-radius: 20px;
     border-color: #692C3D;
     background-color: white;
-    width: 232px;
+    font-family: "Poppins", "Roboto", "Arial";
+    font-size: 20px;
+    width: 100%;
+    max-width: 232px;
     height: 40px;
     margin-left: 175px;
     color: #692C3D;
@@ -248,6 +252,7 @@ button{
 button:hover {
     background-color: #C74629;
     color: white;
+    border-color: transparent;
 
 }
 
@@ -275,26 +280,26 @@ button:hover {
 .popularWorkouts {
     display: flex;
     flex-direction: column;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     width: 100%;
-    max-width: 1194px;
-    height: 100%;
-    max-height: 585px;
+   justify-content: center;
+    text-align: center;
 }
 
 .popularWorkoutsImage{
-    display: flex;
     width: 100%;
-    max-width: 1194px;
-    margin-left: 225px;
     margin-right: auto;
 }
 
+.popularWorkoutsImage img {
+    width: 100%;
+    max-width: 1194px;
+}
+
 .popularWorkoutsButton {
-    display: flex;
    width: 100%;
-   margin-left: 550px;
    margin-top: 50px;
+   margin-left: -110px;
 }
 
 
