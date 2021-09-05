@@ -1,7 +1,7 @@
 /*HEADER*/
 
 header {
-    background-image: url(/images/Animation2.gif);
+    background-image: url(/images/Animation.gif), url(/images/Hero_Animation.png);
     background-repeat: no-repeat;
     background-size: 100vw auto;
 }
