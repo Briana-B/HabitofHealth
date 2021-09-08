@@ -1,9 +1,11 @@
 /*HEADER*/
 
 header {
-    background-image: url(/images/Animation.gif), url(/images/Hero_Animation.png);
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100vw auto, 100vw auto;
+    background-image: url("../images/Animation.gif");
+    background-size: cover;
+    height: 150vh;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
